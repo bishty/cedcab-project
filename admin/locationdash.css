@@ -1,0 +1,43 @@
+table {
+width: 100%;
+text-align: center;
+}
+th {
+padding: 1%;
+border: 2px solid rgb(180, 255, 4);
+width: auto;
+}
+td {
+font-size: 0.8rem;
+padding: 1%;
+border: 1px solid rgb(255, 239, 8);
+width: auto;
+height: 8vh;
+}
+
+.loc {
+padding-top: 5%;
+padding-left: 25%;
+}
+.loc input:focus {
+outline: none;
+border: none;
+appearance: none;
+border-bottom: 2px solid #87CEEB;
+}
+
+.loc input {
+border: none;
+border-bottom: 2px solid #87CEEB;
+appearance: none;
+}
+
+#ANLoc, #update {
+width:20%;
+height: 5vh;
+border: none;
+background-color: #bceb87;
+}
+#ANLoc:hover{
+opacity: 0.5;
+}
